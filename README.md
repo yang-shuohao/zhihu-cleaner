@@ -1,4 +1,3 @@
-```markdown
 # Zhihu Cleaner - 知乎引流与营销内容屏蔽插件
 
 一个轻量、即装即用的浏览器插件，**自动屏蔽知乎上的引流回答与营销内容**，支持 UI 浮窗控制和暗黑模式，帮你恢复一个干净高效的知乎阅读环境。
@@ -86,5 +85,3 @@ MIT License，自由使用、修改与分发。
 GitHub 仓库：[https://github.com/yang-shuohao/zhihu-cleaner](https://github.com/yang-shuohao/zhihu-cleaner)
 
 欢迎 Star、提 Issue、PR，共同打造更干净的知乎！
-
-```
