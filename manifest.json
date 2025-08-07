@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "知乎营销内容屏蔽器",
+  "version": "1.1",
+  "description": "屏蔽知乎上的引流回答和营销内容，带 UI 控制浮窗，支持暗黑模式",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.zhihu.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+#zhihu-blocker-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #ffffffcc;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s;
+  user-select: none;
+}
+#zhihu-blocker-toggle:hover {
+  opacity: 0.9;
+}
+@media (prefers-color-scheme: dark) {
+  #zhihu-blocker-toggle {
+    background-color: #222222cc;
+    color: #eee;
+  }
+}
